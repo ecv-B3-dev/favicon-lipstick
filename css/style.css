@@ -1,0 +1,27 @@
+/* RobotoSlab importé depuis google */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+/* importé depuis repertoire local */
+@font-face {
+  font-family: 'Lobster';
+  src: url('../assets/fonts/Lobster/Lobster-Regular.ttf');
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Lobster', cursive;
+}
+
+/* déclaration custom */
+.bg-black{
+  background-color: black; /* couleur du fond */
+  color: white; /* couleur du texte */
+}
+header .nav-link, footer .nav-link{
+  /* je vais selectionner les classes .nav-link dans le header et dans le footer */
+  color: white; /* couleur du texte */
+}
+
+nav .nav-link{
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+}
